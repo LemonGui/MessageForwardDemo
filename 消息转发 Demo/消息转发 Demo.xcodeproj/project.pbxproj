@@ -17,11 +17,11 @@
 		6C51711F1DCB08CB0082EA0C /* _____DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C51711E1DCB08CB0082EA0C /* _____DemoUITests.m */; };
 		6C51712E1DCB092A0082EA0C /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C51712D1DCB092A0082EA0C /* Father.m */; };
 		6C5171311DCB09320082EA0C /* Mother.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5171301DCB09320082EA0C /* Mother.m */; };
-		6C5171371DCB09C20082EA0C /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5171361DCB09C20082EA0C /* Son.m */; };
 		6C51713A1DCB106F0082EA0C /* Cooks.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5171391DCB106F0082EA0C /* Cooks.m */; };
 		6C51713C1DCB18480082EA0C /* 消息转发流程.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C51713B1DCB18480082EA0C /* 消息转发流程.png */; };
 		6C51713F1DCB27510082EA0C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C51713E1DCB27510082EA0C /* SecondViewController.m */; };
 		6C5171421DCB28D50082EA0C /* WeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5171411DCB28D50082EA0C /* WeakProxy.m */; };
+		6C6D5F991DD2ACC8009C536F /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6D5F981DD2ACC8009C536F /* Son.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +62,6 @@
 		6C51712D1DCB092A0082EA0C /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
 		6C51712F1DCB09320082EA0C /* Mother.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mother.h; sourceTree = "<group>"; };
 		6C5171301DCB09320082EA0C /* Mother.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mother.m; sourceTree = "<group>"; };
-		6C5171351DCB09C20082EA0C /* Son.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Son.h; path = ../Son.h; sourceTree = "<group>"; };
-		6C5171361DCB09C20082EA0C /* Son.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Son.m; path = ../Son.m; sourceTree = "<group>"; };
 		6C5171381DCB106F0082EA0C /* Cooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cooks.h; sourceTree = "<group>"; };
 		6C5171391DCB106F0082EA0C /* Cooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cooks.m; sourceTree = "<group>"; };
 		6C51713B1DCB18480082EA0C /* 消息转发流程.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息转发流程.png"; sourceTree = "<group>"; };
@@ -71,6 +69,8 @@
 		6C51713E1DCB27510082EA0C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		6C5171401DCB28D50082EA0C /* WeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakProxy.h; sourceTree = "<group>"; };
 		6C5171411DCB28D50082EA0C /* WeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeakProxy.m; sourceTree = "<group>"; };
+		6C6D5F971DD2ACC8009C536F /* Son.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		6C6D5F981DD2ACC8009C536F /* Son.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +133,8 @@
 				6C5171301DCB09320082EA0C /* Mother.m */,
 				6C5171381DCB106F0082EA0C /* Cooks.h */,
 				6C5171391DCB106F0082EA0C /* Cooks.m */,
-				6C5171351DCB09C20082EA0C /* Son.h */,
-				6C5171361DCB09C20082EA0C /* Son.m */,
+				6C6D5F971DD2ACC8009C536F /* Son.h */,
+				6C6D5F981DD2ACC8009C536F /* Son.m */,
 				6C5171401DCB28D50082EA0C /* WeakProxy.h */,
 				6C5171411DCB28D50082EA0C /* WeakProxy.m */,
 				6C51713B1DCB18480082EA0C /* 消息转发流程.png */,
@@ -310,12 +310,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C5171371DCB09C20082EA0C /* Son.m in Sources */,
 				6C51713A1DCB106F0082EA0C /* Cooks.m in Sources */,
 				6C5171011DCB08CB0082EA0C /* ViewController.m in Sources */,
 				6C51712E1DCB092A0082EA0C /* Father.m in Sources */,
 				6C51713F1DCB27510082EA0C /* SecondViewController.m in Sources */,
 				6C5170FE1DCB08CB0082EA0C /* AppDelegate.m in Sources */,
+				6C6D5F991DD2ACC8009C536F /* Son.m in Sources */,
 				6C5171421DCB28D50082EA0C /* WeakProxy.m in Sources */,
 				6C5170FB1DCB08CB0082EA0C /* main.m in Sources */,
 				6C5171311DCB09320082EA0C /* Mother.m in Sources */,
@@ -556,6 +556,7 @@
 				6C5171251DCB08CB0082EA0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C5171261DCB08CB0082EA0C /* Build configuration list for PBXNativeTarget "消息转发 DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +565,7 @@
 				6C5171281DCB08CB0082EA0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C5171291DCB08CB0082EA0C /* Build configuration list for PBXNativeTarget "消息转发 DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +574,7 @@
 				6C51712B1DCB08CB0082EA0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
